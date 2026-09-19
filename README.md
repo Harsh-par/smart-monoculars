@@ -6,6 +6,11 @@ A bare metal C night vision HUD monocular built on the Sipeed Maix Bit (Kendryte
 
 ---
 
+## How It Works
+The Monoculars use active infrared illumination. An external IR flashlight floods the environment with wavelengths invisible to the human eye but can be captured by the camera sensor. This live IR video feed is simultaneously streamed to the HUD for real time viewing and routed to the KPU for hardware accelerated AI object detection.
+
+---
+
 ## Gallery
 
 | | |
